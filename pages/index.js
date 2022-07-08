@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Hero from "../components/Hero";
-import SliderData from "../components/SliderData";
+import Slider from "../components/Slider";
+import { SliderData } from "../components/SliderData";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -21,7 +22,8 @@ export default function Home() {
         heading="ANIME"
         message="I made yt shorts to improve my editing skills and to entertain audience."
       />
-      <SliderData />
+      <Slider slides={SliderData} />
+
     </div>
   );
 }

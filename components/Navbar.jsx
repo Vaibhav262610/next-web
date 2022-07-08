@@ -31,21 +31,21 @@ const Navbar = () => {
     >
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
         <Link href="/">
-          <h1 style={{ color: `${textColor}` }} className="font-bold text-4xl">
+          <h1 style={{ color: `${textColor}` }} className="font-bold cursor-pointer text-4xl">
             SR2
           </h1>
         </Link>
         <ul style={{ color: `${textColor}` }} className="gap-12 hidden sm:flex">
-          <li className="">
+          <li className="cursor-pointer">
             <Link href="/">Home</Link>
           </li>
-          <li className="">
+          <li className="cursor-pointer">
             <Link href="/#gallery">Gallery</Link>
           </li>
-          <li className="">
+          <li className="cursor-pointer">
             <Link href="/work">Work</Link>
           </li>
-          <li className="">
+          <li className="cursor-pointer">
             <Link href="/contact">Contact</Link>
           </li>
         </ul>
