@@ -50,7 +50,6 @@ const Navbar = () => {
           </li>
         </ul>
 
-        {/* Mobile Button */}
         <div onClick={handleNav} className='block sm:hidden z-10'>
           {nav ? (
             <AiOutlineClose size={20} style={{ color: `${textColor}` }} />
@@ -58,7 +57,6 @@ const Navbar = () => {
             <AiOutlineMenu size={20} style={{ color: `${textColor}` }} />
           )}
         </div>
-        {/* Mobile Menu */}
         <div
           className={
             nav
